@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # Assign a random signed number to the variable 'number'
-
 import random
 number = random.randint(-10, 10)
 if number > 0:
