@@ -2,4 +2,4 @@
 a = 5 
 b= 24
 a, b = b, a
-print(a,b)
+print("a={:d} - b={:d}".format(a, b))
