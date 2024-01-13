@@ -9,4 +9,4 @@ def weight_average(my_list=[]):
         total_weighted_sum += score * weight
         total_weight += weight
 
-    return total_weighted_sum / total_weight if total_weight
+    return total_weighted_sum / total_weight if total_weight else 0
