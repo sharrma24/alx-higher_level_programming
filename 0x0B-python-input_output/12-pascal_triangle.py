@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Defines a Pascal's Triangle function."""
+"""Defines a function for generating Pascal's Triangle."""
 
 def generate_pascals_triangle(size):
-    """Generate Pascal's Triangle of the given size.
+    """Generate Pascal's Triangle of the specified size.
 
     Returns a list of lists of integers representing the triangle.
     """
