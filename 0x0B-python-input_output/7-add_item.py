@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Add all arguments to a Python list and save them to a file."""
+"""Append command-line arguments to an existing Python list and save the updated list to a file."""
 import sys
 
 if __name__ == "__main__":
@@ -15,4 +15,5 @@ if __name__ == "__main__":
     new_items = sys.argv[1:]
     updated_items = existing_items + new_items
     save_to_json_file(updated_items, "add_item.json")
+
 
